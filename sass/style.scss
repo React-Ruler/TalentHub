@@ -14,6 +14,15 @@ $family-primary: "Mouse Memoirs", sans-serif;
 $body-family: $family-sans-serif;
 
 // Add Custom CSS Here.
+
+.footer {
+  background: #292d32 !important;
+  color: #fff !important;
+}
+.footer a {
+  color: #fff !important;
+}
+
 .control {
   font-size: 1rem;
   position: relative;
