@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+// Import Google Font
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mouse+Memoirs&display=swap");
+
+// Start coding Bulma Variables here
+
+$family-sans-serif: "Montserrat", sans-serif;
+$family-primary: "Mouse Memoirs", sans-serif;
+
+// Start coding Bulma Variables here
+
+$body-family: $family-sans-serif;
+
+// Add Custom CSS Here.
+.control {
+  font-size: 1rem;
+  position: relative;
+  text-align: left;
+}
+.has-background-gradient {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  ) !important;
+  height: 500px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.navbar-brand {
+  width: 210px !important;
+}
+.title.is-3 {
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 96px !important;
+  line-height: 110px !important;
+  letter-spacing: -0.433108px !important;
+}
+.title span::after {
+  content: "\a";
+  white-space: pre;
+}
+
+p.subtitle {
+  font-family: $family-sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 29px !important;
+  text-align: center !important;
+  color: #292d32 !important;
+}
+.subtitle.is-3 {
+  font-family: $family-primary !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 189px !important;
+  line-height: 216px !important;
+  letter-spacing: -0.851408px !important;
+  color: #292d32 !important;
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2) !important;
+}
+.main-hero-desktop {
+  display: block !important;
+  height: 560px !important;
+  width: 420px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.main-hero-paragrapgh {
+  max-width: 544px;
+  padding-right: 5em;
+}
+
+.navbar-end {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  color: #55efc4;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.433108px;
+  text-align: center;
+}
+// Import only what you need from Bulma
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
